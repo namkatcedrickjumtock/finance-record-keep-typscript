@@ -134,6 +134,6 @@ Tuples in Typscripts are comma separated values with an unchangeable type when d
  but we can't change the type at possition[0] to a number like:
 
            user[0] = 50 ❌
- but we can't change the type at possition[0] to a different value of thesame type:
+ but we can change the type at possition[0] to a different value of thesame type:
 
            user[0] = "Junior " ✅
