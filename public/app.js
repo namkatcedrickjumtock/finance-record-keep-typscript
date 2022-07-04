@@ -1,11 +1,16 @@
 import { payments } from "./classes/payments.js";
 import { Invoice } from "./classes/invoces.js";
+import { ListTemplate } from "./classes/ListTemplate.js";
 // getting form elements
 const form = document.querySelector('.new-item-form');
 // console.log(form?.children);
 const anchor = document.querySelector('a');
 // console.log(anchor.href);
+// formatter interface
 let hasFormmeterObjects;
+// ul instance
+const ul = document.querySelector('ul');
+const list = new ListTemplate(ul);
 // type casting adding an aliass as
 const type = document.querySelector("#type");
 const toForm = document.querySelector("#tofrom");
@@ -19,7 +24,8 @@ form.addEventListener('submit', (e) => {
     else {
         hasFormmeterObjects = new payments(toForm.value, details.value, +amount.value);
     }
-    console.log(hasFormmeterObjects);
+    // call templateList class
+    list.render(hasFormmeterObjects, type.value, "end");
 });
 // const invoiceOne = new Invoice("cedrick", "bought courses", 4000)
 // const invoiceTwo = new Invoice("prince", "work done on some chairs", 3000)

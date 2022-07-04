@@ -1,4 +1,4 @@
 export  interface HasFormetter {
 
-    format(): String
+     format(): string
 }
