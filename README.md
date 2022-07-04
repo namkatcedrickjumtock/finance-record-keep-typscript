@@ -121,4 +121,19 @@ we can even go deeper by specifying what each objects elements should have
         data: T // generic value
      }
 #### Enums in Typscript
+
+    template
+    enum <nameOfEnum> = { coma separated values }
 enums helps us to store a certain type of constants or key words and associate them with a key value pair.
+
+#### Tuples in Typscript
+Tuples in Typscripts are comma separated values with an unchangeable type when define.
+
+          
+           let user: [string, number, bolean] = ["cedrick", 32, true]  ✅
+ but we can't change the type at possition[0] to a number like:
+
+           user[0] = 50 ❌
+ but we can't change the type at possition[0] to a different value of thesame type:
+
+           user[0] = "Junior " ✅
