@@ -1,6 +1,8 @@
 ## ` TypeScript Notes`
 
+      setup :
       sudo apt install TypeScript -> for Debian distribution
+      tsc init -> initialized typeScripts configurations for better workflow.
 
 Typscripts is what we call a Superset of javascript becuase it extends teh functionality of Vanilla javascripts, strongly typed and compiled down to javascript which is much error free or bug free.
 
