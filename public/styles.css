@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Exo+2:wght@600&family=Fira+Sans:wght@200&family=Kdam+Thmor+Pro&family=Montserrat:wght@300&family=Nunito+Sans:ital,wght@0,200;0,300;0,600;0,700;0,800;1,200;1,700&family=Nunito:ital,wght@0,200;0,400;1,200;1,300&family=Open+Sans:ital,wght@1,300&family=Plus+Jakarta+Sans:wght@200&family=Poppins:wght@300&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:ital,wght@1,100&display=swap');
+
 body{
   margin: 0;
-  font-family: Roboto; 
+  font-family: 'Exo 2', sans-serif;
+}
+img{
+  width: 20rem;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 .wrapper{
   max-width: 960px;
@@ -8,7 +16,6 @@ body{
 }
 h1{
   margin: 40px auto;
-  color: #ff0aa7;
   text-align: center;
 }
 ul{
@@ -17,20 +24,20 @@ ul{
 }
 li{
   padding: 6px 10px;
-  border: 1px solid #eee;
   margin: 10px auto;
+  box-shadow: 1px 1px 1px  #00000019;
 }
 li h4{
-  color: #ff0aa7;
+  color: #004bcd;
   margin: 0;
   text-transform: capitalize;
 }
 li p{
-  color: #333;
-  margin: 8px 0 0;
+  color: rgba(0, 0, 0, 0.591);
+  margin: 10px 0 0;
 }
 footer{
-  background: #eee;
+  background: rgb(0, 76, 255);
   padding: 60px;
   margin-top: 60px;
 }
@@ -43,7 +50,7 @@ label{
   display: block;
   font-weight: bold;
   font-size: 0.8em;
-  color: #333;
+  color: rgb(255, 255, 255);
   margin: 16px 0 6px;
 }
 input, select{
@@ -56,17 +63,18 @@ input, select{
   margin: 0 10px;
 }
 button{
-  color: white;
+  color: rgb(68, 68, 201);
   border: 0;
-  background: #ff0aa7;
+  background: #f1f1f1;
   padding: 6px;
   min-width: 80px;
   border-radius: 4px;
 }
 footer a{
   text-align: center;
+  text-decoration: none;
   display: block;
-  color: #999;
+  color: rgb(204, 204, 204);
   margin-top: 40px;
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
